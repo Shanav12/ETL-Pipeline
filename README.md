@@ -10,4 +10,4 @@ I wanted to embark on a journey to understand what factors can play in to whethe
 - Google BigQuery
 
 ## Overview: 
-I transformed the data in PySpark through filtering out rows containing null values, grouped all unique customers, engineered a purchases feature, and loaded it to Google BigQuery. After loading the data, I engineered a logistic regression model to predict customer retainment and was able to achieve an accuracy rate of 70%. Through this model, I was able to learn that customer age, size of purchases, order quantity, and total number of orders are important factors in determining whether a company will retain a customer.
+I transformed the data in PySpark through filtering out rows containing null values, grouped all unique customers, engineered a purchases feature, and loaded it to Google BigQuery. After loading the data, I engineered a logistic regression model to predict customer retainment and was able to achieve an accuracy rate of 75%. Through this model, I was able to learn that customer age, size of purchases, order quantity, and total number of orders are important factors in determining whether a company will retain a customer.
